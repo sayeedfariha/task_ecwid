@@ -1,5 +1,5 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
 const brands = [
@@ -22,11 +22,11 @@ const VerticalLine = () => {
       </h2>
 
       <div className=" w-full  mx-auto ">
-        <Marquee
+        {/* <Marquee
           gradient={false}
           speed={50}
           className="flex items-center  space-x-12"
-        >
+        > */}
           {brands.map((partner, index) => (
             <div key={index} className="text-center m-4">
               {/* <img
@@ -39,7 +39,7 @@ const VerticalLine = () => {
               </h1>
             </div>
           ))}
-        </Marquee>
+        {/* </Marquee> */}
       </div>
     </section>
   );
