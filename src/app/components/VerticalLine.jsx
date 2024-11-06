@@ -1,7 +1,6 @@
 'use client'
 import React from "react";
 import { Marquee } from 'dynamic-marquee-react';
-import Link from "next/link";
 
 const brands = [
   { name: "MARSEMELLO", imgSrc: "/images/marsemello.png" },
