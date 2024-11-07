@@ -1,10 +1,3 @@
-import React from 'react'
-
-export default function footer() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+import React from 'react';
+import Link from 'next/link';
 

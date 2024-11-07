@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="bg-slate-100 w-full h-16 sticky top-0 flex items-center justify-between border-b border-slate-200 shadow px-20">
+    <header className="bg-white w-full h-16 sticky top-0 flex items-center justify-between px-20 z-[1000]">
 
     <div className="logo flex items-center gap-10">
     <a href="#" className="text-2xl font-semibold text-gray-800">Ecwid</a>

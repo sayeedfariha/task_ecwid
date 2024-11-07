@@ -3,15 +3,18 @@ import React from "react";
 import { Marquee } from 'dynamic-marquee-react';
 
 const brands = [
-  { name: "MARSEMELLO", imgSrc: "/images/marsemello.png" },
-  { name: "Stipe", imgSrc: "/images/stipe.png" },
-  { name: "ShipStation", imgSrc: "/images/shipstation.png" },
-  { name: "Omnisend", imgSrc: "/images/omnisend.png" },
-  { name: "Kliken", imgSrc: "/images/kliken.png" },
-  { name: "PRINTFUL", imgSrc: "/images/printful.png" },
-  { name: "Square", imgSrc: "/images/square.png" },
-  { name: "INTUIT QUICKBOOKS", imgSrc: "/images/quickbooks.png" },
-  { name: "PayPal", imgSrc: "/images/paypal.png" }
+  { alt: "PayPal", imgSrc: "/assets/PayPal.png" },
+  { alt: "Square", imgSrc: "/assets/Square.png" },
+  { alt: "Stripe", imgSrc: "/assets/Stripe.png" },
+  { alt: "Quickbooks ", imgSrc: "/assets/Quickbooks.png" },
+  { alt: "Shipstation", imgSrc: "/assets/Shipstation.png" },
+  { alt: "Kliken", imgSrc: "/assets/Kliken.png" },
+  { alt: "Printful", imgSrc: "/assets/Printful.png" },
+  { alt: "Marsello", imgSrc: "/assets/Marsello.png" },
+  { alt: "Ominsend", imgSrc: "/assets/Ominsend.png" },
+  
+  
+  
 ];
 
 const VerticalLine = () => {
@@ -22,18 +25,15 @@ const VerticalLine = () => {
       </h2>
 
       <div className=" w-full  mx-auto ">
-        <Marquee upDown>
+        <Marquee rate={75}>
         
           {brands.map((partner, index) => (
             <div key={index} className="text-center m-4">
-              {/* <img
+              <img
                 src={partner.imgSrc}
                 alt={partner.name}
                 className="h-16 w-auto mx-auto"
-              /> */}
-              <h1 className="text-xl font-medium text-gray-500 mt-2 mx-6">
-                {partner.name}
-              </h1>
+              />
             </div>
           ))}
         </Marquee>
