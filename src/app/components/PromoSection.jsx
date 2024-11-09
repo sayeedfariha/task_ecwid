@@ -24,7 +24,7 @@ export default function PromoSection() {
           <p className="text-gray-600 my-6">No credit card required.</p>
       </div>
 
-      <div className="w-screen h-[40vh] xl:h-screen xl:w-[42vw] relative overflow-hidden bg-neutral-100">
+      <div className="w-screen h-[40vh] xl:h-screen xl:w-[42vw] relative overflow-hidden xl:overflow-visible bg-neutral-100">
         <Image
           src={Hero}
           alt="Hero Image"

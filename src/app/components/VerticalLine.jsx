@@ -12,9 +12,6 @@ const brands = [
   { alt: "Printful", imgSrc: "/assets/Printful.png" },
   { alt: "Marsello", imgSrc: "/assets/Marsello.png" },
   { alt: "Ominsend", imgSrc: "/assets/Ominsend.png" },
-  
-  
-  
 ];
 
 const VerticalLine = () => {
