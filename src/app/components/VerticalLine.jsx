@@ -19,8 +19,8 @@ const brands = [
 
 const VerticalLine = () => {
   return (
-    <section className="bg-gradient-to-r from-[#e8d1f1] via-[#d1cbd1] to-[#eee1c4f3] text-center py-20 px-30 ">
-      <h2 className="text-4xl font-semibold text-gray-800 mb-8 text-left">
+    <section className="bg-gradient-to-r from-[#e8d1f1] via-[#d1cbd1] to-[#eee1c4f3] text-center py-10 px-30 ">
+      <h2 className="text-4xl text-gray-800 text-left p-8">
         Best partners by your side
       </h2>
 
@@ -32,7 +32,7 @@ const VerticalLine = () => {
               <img
                 src={partner.imgSrc}
                 alt={partner.name}
-                className="h-16 w-auto mx-auto"
+                className="h-20 w-auto mx-4"
               />
             </div>
           ))}

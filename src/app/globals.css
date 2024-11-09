@@ -1,10 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.gabarito {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +31,23 @@ body {
   letter-spacing: 0.75px;
   overflow-x: hidden;
   overflow-x: clip !important;
+}
+
+
+@font-face {
+  font-family: 'Regular';
+  src: url(/fonts/Gabarito-Regular.ttf)  format('truetype');
+}
+
+.regular-font {
+  font-family: 'Regular', sans-serif;
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(/fonts/Gabarito-Bold.ttf)  format('truetype');
+}
+
+.bold {
+  font-family: 'Bold', sans-serif;
 }
