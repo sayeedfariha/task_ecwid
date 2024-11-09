@@ -1,12 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../assets/ecwid-logo.png";
-import { FaFacebook, FaXTwitter } from "react-icons/fa6";
+import logo from "../assets/logo.png";
+import { FaFacebook, FaXTwitter,FaPinterest } from "react-icons/fa6";
 import {
   FaBloggerB,
   FaMicrophone,
-  FaPinterest,
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
@@ -42,7 +41,7 @@ export default function Footer() {
           <Link href="/" className="flex items-center">
             <Image
               src={logo}
-              alt="Ecwid Logo"
+              alt="Logo"
               width={200}
               height={200}
               className="w-32 h-auto"
@@ -117,8 +116,22 @@ export default function Footer() {
             <Image src={GooglePlay} alt="Download" className="w-28 xl:w-40 h-auto" />
           </div>
         </div>
-
       </div>
+
+      <div className="flex items-center justify-between p-12">
+          <div className="flex items-center justify-center gap-2 text-xl">
+            <h1>Global</h1>
+            <RiGlobalLine />
+          </div>
+
+          <div className="flex gap-2">
+            <Link href="#" className="text-neutral-400">DPA</Link>
+            <Link href="#" className="text-neutral-400">Terms of Service</Link>
+            <Link href="#" className="text-neutral-400">Copyright Policy</Link>
+            <p className="text-neutral-300">© 2024 Ecwid by Lightspeed</p>
+          </div>
+      </div>
+
     </div>
   );
 }
