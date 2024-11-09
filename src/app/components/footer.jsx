@@ -13,6 +13,7 @@ import {
 import { IoSearch } from "react-icons/io5";
 import AppStore from "../../../public/assets/AppStore.png";
 import GooglePlay from "../../../public/assets/GooglePlay.png";
+import { RiGlobalLine } from "react-icons/ri";
 
 const links = [
   { href: "https://www.ecwid.com/sell", text: "Sell Everywhere" },

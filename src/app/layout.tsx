@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className="regular-font">
         <Header/>
         {children}
-
+        <Footer/>
       </body>
     </html>
   );
