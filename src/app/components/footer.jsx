@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../assets/ecwid-logo.png';
+import { FaFacebook } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -14,9 +15,9 @@ export default function Footer() {
             src={logo} 
             alt="Ecwid Logo" 
             width={100} height={100} />
-            <span className=" text-lg font-semibold text-gray-800"></span>
+            <span className=" text-lg font-semibold text-gray-800 "></span>
           </Link>
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-gray-600 ">
             <li><Link href="#">Sell online</Link></li>
             <li><Link href="#">Business solutions</Link></li>
             <li><Link href="#">Technology solutions</Link></li>
@@ -28,7 +29,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:ml-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:ml-16 border-t">
      
           <div>
             <h6 className="font-serif text-gray-400 mb-8 gap-8  text-center text-6xl">Sell online</h6>
@@ -61,6 +62,13 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className=" mx-auto mt-10 flex flex-col lg:flex-row items-end justify-between  border-gray-300 pt-8">
+        <div className="flex">
+        <FaFacebook />
+
+        </div>
+
       </div>
     </div>
   );
