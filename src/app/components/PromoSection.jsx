@@ -12,7 +12,7 @@ export default function PromoSection() {
           MORE THAN JUST <br/> SELLING ONLINE
         </h1>
         <h2 className="text-3xl xl:text-7xl text-gray-500">
-          LESS THAN YOU'D <br />
+          LESS THAN YOU`&apos;`D <br />
           EXPECT TO PAY.
         </h2>
         <p className="text-2xl text-gray-600 my-6">

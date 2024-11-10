@@ -26,7 +26,7 @@ const VerticalLine = () => {
         
           {brands.map((partner, index) => (
             <div key={index} className="text-center m-4">
-              <img
+              <Image
                 src={partner.imgSrc}
                 alt={partner.name}
                 className="h-20 w-auto mx-4"

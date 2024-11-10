@@ -19,15 +19,7 @@ function Header() {
       </Link>
 
       <div className="flex xl:hidden">
-        <Hamburger
-          onToggle={(toggled) => {
-            if (toggled) {
-              ``
-            } else {
-              // close a menu
-            }
-          }}
-        />
+        <Hamburger/>
       </div>
       <div className="w-full hidden xl:flex items-center justify-between">
         <div className="logo flex items-center gap-10">
