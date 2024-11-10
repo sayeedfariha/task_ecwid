@@ -1,5 +1,6 @@
 'use client'
 import React from "react";
+import Image from "next/image";
 import { Marquee } from 'dynamic-marquee-react';
 
 const brands = [
