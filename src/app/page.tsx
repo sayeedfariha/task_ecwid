@@ -1,12 +1,12 @@
 import VerticalLine from "./components/VerticalLine";
 import PromoSection from "./components/PromoSection";
-import Footer from "./components/Footer.jsx"
+import FooterBar from "./components/FooterBar.jsx"
 export default function Home() {
   return (
     <>
     <PromoSection/>
     <VerticalLine/>
-    <Footer/>
+    <FooterBar/>
     </>
   );
 }

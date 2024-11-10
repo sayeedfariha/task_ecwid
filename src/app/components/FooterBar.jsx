@@ -33,7 +33,7 @@ const links = [
   { href: "https://www.ecwid.com/mobile", text: "Sell on Mobile (ShopApp)" },
 ];
 
-export default function Footer() {
+export default function FooterBar() {
   return (
     <div className="bg-gray-100">
       <div className="container flex flex-col lg:flex-row">
