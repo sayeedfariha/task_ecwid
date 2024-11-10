@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="regular-font">
+      <body className="regular-font  w-screen">
         <Header/>
         {children}
       </body>

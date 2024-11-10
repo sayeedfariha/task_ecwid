@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function PromoSection() {
   return (
-    <section className="flex flex-col xl:flex-row h-auto xl:h-[100vh]">
+    <section className="flex flex-col xl:flex-row h-auto xl:h-[100vh] w-screen">
       <div className="flex flex-col justify-center w-screen xl:w-[58vw] h-[65vh] xl:h-screen  text-section p-12">
         <h1 className="text-3xl xl:text-7xl font-bold text-gray-800 bold">
           MORE THAN JUST <br/> SELLING ONLINE

@@ -17,7 +17,7 @@ const brands = [
 
 const VerticalLine = () => {
   return (
-    <section className="bg-gradient-to-r from-[#e8d1f1] via-[#d1cbd1] to-[#eee1c4f3] text-center py-10 px-30 ">
+    <section className=" w-screen bg-gradient-to-r from-[#e8d1f1] via-[#d1cbd1] to-[#eee1c4f3] text-center py-10 px-30 ">
       <h2 className="text-4xl text-gray-800 text-left p-8">
         Best partners by your side
       </h2>

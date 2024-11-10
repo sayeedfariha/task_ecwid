@@ -7,7 +7,7 @@ import Hamburger from "hamburger-react";
 
 function Header() {
   return (
-    <header className="bg-white w-full h-16 sticky top-0 flex items-center justify-between gap-10 px-8 xl:px-20 z-[1000]">
+    <header className="bg-white w-screen h-16 sticky top-0 flex items-center justify-between gap-10 px-8 xl:px-20 z-[1000]">
       <Link href="#" className="flex items-center">
         <Image
           src={logo}
