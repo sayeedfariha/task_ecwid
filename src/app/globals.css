@@ -22,14 +22,15 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
+  max-width: 100vm;
   height: 100%;
   margin: 0px !important;
   padding: 0px !important;
   box-sizing: border-box;
   font-weight: 100;
   letter-spacing: 0.75px;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 
