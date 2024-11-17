@@ -12,7 +12,7 @@ const brands = [
   { alt: "Kliken", imgSrc: "/assets/Kliken.png" },
   { alt: "Printful", imgSrc: "/assets/Printful.png" },
   { alt: "Marsello", imgSrc: "/assets/Marsello.png" },
-  { alt: "Ominsend", imgSrc: "/assets/Ominsend.png" },
+  { alt: "Ominsend", imgSrc: "/assets/Omnisend.png" },
 ];
 
 const VerticalLine = () => {

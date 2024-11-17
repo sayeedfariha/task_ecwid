@@ -19,6 +19,7 @@ function Header() {
       </Link>
 
       <div className="flex xl:hidden">
+      <div className="border-t"> </div>
         <Hamburger/>
       </div>
       <div className="w-full hidden xl:flex items-center justify-between">

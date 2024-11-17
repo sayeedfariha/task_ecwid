@@ -95,7 +95,7 @@ export default function FooterBar() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center xl:items-end border-gray-300 gap-4 w-screen p-12">
+      <div className="flex flex-col items-start xl:items-end border-gray-300 gap-4 w-screen p-12">
         <div className="flex text-2xl gap-4">
           <FaBloggerB />
           <FaMicrophone />
@@ -106,7 +106,7 @@ export default function FooterBar() {
           <FaYoutube />
         </div>
 
-        <div className="flex flex-col xl:flex-row justify-between items-center xl:items-end gap-2 w-full">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end gap-2 w-full">
           <span className="flex items-center relative">
             <input type="text" placeholder="Search" className="w-60 bg-white p-2 rounded-md border-2 border-neutral-400" />
             <IoSearch className="absolute right-3 text-neutral-400 cursor-pointer"/>
@@ -119,12 +119,12 @@ export default function FooterBar() {
       </div>
 
       <div className="flex xl:flex-row flex-col-reverse items-center justify-between p-12 gap-4">
-          <div className="flex items-center xl:justify-start justify-center gap-2 text-xl">
+          <div className="flex justify-items-start xl:justify-start justify-center gap-2 text-xl">
             <h1>Global</h1>
             <RiGlobalLine />
           </div>
 
-          <div className="flex xl:flex-row flex-col  gap-2">
+          <div className="flex items-start xl:flex-row flex-col  gap-2">
             <Link href="#" className="text-neutral-400">DPA</Link>
             <Link href="#" className="text-neutral-400">Terms of Service</Link>
             <Link href="#" className="text-neutral-400">Copyright Policy</Link>
