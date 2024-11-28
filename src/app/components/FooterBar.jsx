@@ -37,7 +37,7 @@ export default function FooterBar() {
   return (
     <div className=" w-screen bg-gray-100">
       <div className="container flex flex-col lg:flex-row">
-        <div className="bg-neutral-300 px-20 py-14">
+        <div className="bg-white xl:bg-neutral-300 px-12 xl:px-20 py-14">
           <Link href="/" className="flex items-center">
             <Image
               src={logo}
