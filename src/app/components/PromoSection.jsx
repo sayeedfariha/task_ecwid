@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 export default function PromoSection() {
   return (
     <section className="flex flex-col xl:flex-row h-auto xl:h-[100vh] w-screen">
-      <div className="flex flex-col justify-center w-screen xl:w-[58vw] h-auto xl:h-screen  text-section p-12">
+      <div className="flex flex-col justify-center w-screen xl:w-[58vw] h-auto xl:h-screen  text-section p-8 xl:p-12">
         <h1 className="text-5xl xl:text-7xl font-bold text-gray-800 bold">
           MORE THAN JUST <br/> SELLING ONLINE
         </h1>
@@ -19,7 +19,7 @@ export default function PromoSection() {
         <p className="text-2xl text-gray-600 my-6">
             Try for free for as long as you like. <br /> No transaction fees.
           </p>
-          <button className="flex items-center justify-between bg-yellow-300 text-gray-900 font-xs xl:font-medium rounded-full xl:p-6 p-3 shadow hover:bg-yellow-300 text-2xl  hover:w-64 w-80 xl:hover:w-96 ease-in duration-300">
+          <button className="flex items-center justify-between bg-yellow-300 text-gray-900 font-xs xl:font-medium rounded-full xl:p-6 p-4 shadow hover:bg-yellow-300 xl:text-2xl text-md hover:w-64 w-60 xl:w-80 xl:hover:w-96 ease-in duration-300">
             Get started for free <ArrowRight className="font-medium xl: font-4xl" />
           </button>
           <p className="text-gray-600 my-6">No credit card required.</p>

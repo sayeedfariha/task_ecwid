@@ -118,13 +118,13 @@ export default function FooterBar() {
         </div>
       </div>
 
-      <div className="flex xl:flex-row flex-col-reverse items-center justify-between p-12 gap-4">
-          <div className="flex justify-items-start xl:justify-start justify-center gap-2 text-xl">
+      <div className="flex xl:flex-row flex-col-reverse items-start justify-between p-12 gap-4 w-full">
+          <div className="flex items-start  xl:justify-start justify-center gap-2 text-xl">
             <h1>Global</h1>
             <RiGlobalLine />
           </div>
 
-          <div className="flex items-start xl:flex-row flex-col  gap-2">
+          <div className="flex items-start xl:flex-row flex-col gap-2">
             <Link href="#" className="text-neutral-400">DPA</Link>
             <Link href="#" className="text-neutral-400">Terms of Service</Link>
             <Link href="#" className="text-neutral-400">Copyright Policy</Link>
