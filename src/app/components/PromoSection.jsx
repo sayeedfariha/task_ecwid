@@ -9,10 +9,10 @@ export default function PromoSection() {
   return (
     <section className="flex flex-col xl:flex-row h-auto xl:h-[100vh] w-screen">
       <div className="flex flex-col justify-center w-screen xl:w-[58vw] h-auto xl:h-screen  text-section p-8 xl:p-12">
-        <h1 className="text-5xl xl:text-7xl font-bold text-gray-800 bold">
+        <h1 className="text-4xl xl:text-7xl font-bold text-gray-800 bold">
           MORE THAN JUST SELLING ONLINE
         </h1>
-        <h2 className="text-5xl xl:text-7xl text-gray-500">
+        <h2 className="text-4xl xl:text-7xl text-gray-500">
           LESS THAN YOU&apos;D EXPECT TO PAY.
         </h2>
         <p className="text-2xl text-gray-600 my-6">
