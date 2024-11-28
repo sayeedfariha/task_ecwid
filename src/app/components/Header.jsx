@@ -29,7 +29,7 @@ function Header() {
       </button>
 
       {isOpen && (
-        <div className={`absolute top-16 right-0 h-screen w-3/4 bg-white shadow-md z-[999] transform transition-transform duration-600 ${
+        <div className={`absolute top-16 right-0 h-screen w-3/4 bg-white shadow-md z-[999] transform transition-transform duration-1000 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}>
           <ul className="flex flex-col p-8 text-neutral-600">
